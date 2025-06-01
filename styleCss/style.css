@@ -96,31 +96,6 @@ body {
     border-radius: 10px;
 }
 
-
-/*Estilos Footer*/
-
-.footer-principal{
-    background-color: #3f3d3d;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-}
-
-.footer-productos{
-    background-color: #3f3d3d;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-}
-
-.footer-contactos{
-    background-color: #3f3d3d;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-}
-
-
 /*Estilos Contactos */
 
 .seccion-contactos {
@@ -173,3 +148,82 @@ body {
     width: auto;
     margin-bottom: 1rem;
 }
+
+/*Estilos Sobre Nosotros*/
+
+.container-sobreNosotros {
+    padding: 6rem 2rem;
+    text-align: center;
+    color: white;
+}
+
+.imagen-empleado {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 200px;
+    margin-bottom: 1rem;
+}
+
+.cards-equipo{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0.5rem;
+    justify-items: center;
+}
+
+/*Estilo Sucursales*/
+.cards-sucursales {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+}
+
+.card-sucursal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.imagen-sucursal {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 200px;
+    margin-bottom: 1rem;
+}
+
+/*Estilos Footer*/
+
+.footer-principal{
+    background-color: #3f3d3d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-productos{
+    background-color: #3f3d3d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-contactos{
+    background-color: #3f3d3d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-sobreNosotros{
+    background-color: #3f3d3d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
