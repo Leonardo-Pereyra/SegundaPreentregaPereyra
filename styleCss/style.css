@@ -2,48 +2,49 @@
     font-family: "Poppins", sans-serif;
 }
 
-/* Estilos Header */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
-.header-principal {
-    background-image: url(../img/logoBackground.png);
-    height: 100vh;
+main {
+    flex: 1;
+}
+
+/* Estilos de la pagina principal */
+
+.main-principal {
+    background-image: url('../img/logoBackground.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
-}
-
-.logo-nav {
-    width: 50px;
-    height: 50px;
-    padding-left: 5px;
+    padding: 8rem 2rem 4rem 2rem;
+    text-align: center;
+    color: #ffffff;
+    min-height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
 .titulo-principal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .parrafo-principal {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #ffffff;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-body {
-    background-color: #3f3d3d !important;
-    color: #ffffff;
+.logo-nav {
+    width: 100px;
+    height: auto;
 }
 
 /*Estilo Productos */
@@ -99,13 +100,15 @@ body {
 /*Estilos Contactos */
 
 .seccion-contactos {
+    background-image: url('../img/logoBackground.png'); /* asegurate de tener esta línea */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 6rem 2rem;
+    padding: 6rem 2rem 8rem 2rem;
     position: relative;
     text-align: center;
     color: #ffffff;
+    height: 100vh;
 }
 
 .titulo-contactos {
@@ -129,6 +132,7 @@ body {
     gap: 2rem;
     z-index: 2;
     position: relative;
+    margin-bottom: 4rem;
 }
 
 .card-contactos {
@@ -150,6 +154,17 @@ body {
 }
 
 /*Estilos Sobre Nosotros*/
+
+.main-sobreNosotros {
+    background-image: url('../img/logoBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6rem 2rem 8rem 2rem;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
 
 .container-sobreNosotros {
     padding: 6rem 2rem;
@@ -174,6 +189,17 @@ body {
 
 /*Estilo Sucursales*/
 
+.main-sucursales {
+    background-image: url('../img/logoBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6rem 2rem 8rem 2rem;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
 .titulo-sucursales {
     font-size: 2.5rem;
     margin-bottom: 5rem;
@@ -189,6 +215,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
     justify-items: center;
+    margin-bottom: 3rem ;
 }
 
 .card-sucursal {
@@ -201,6 +228,7 @@ body {
     padding: 1.5rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
     max-width: 300px;
+    color: #000000;
 }
 
 .imagen-sucursal {
@@ -241,5 +269,13 @@ body {
     padding: 1rem;
 }
 
+.footer-sucursales{
+    background-color: #3f3d3d;
+    color: #ffffff;
+    text-align: center;
+    padding: 3rem;
+    margin: auto;
+    width: 100%;
+}
 
 
