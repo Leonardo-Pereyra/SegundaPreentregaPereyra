@@ -1,0 +1,30 @@
+// ===================
+// MIXINS
+// ===================
+
+@mixin boton($bg-color, $text-color, $border-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    border: solid 1px $border-color;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+@mixin imagen-responsiva($max-height: 200px) {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: $max-height;
+    margin-bottom: 1rem;
+}
+
+@mixin fondo-logo($padding-top: 6rem, $padding-bottom: 8rem) {
+    background-image: url('../img/logoBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: $padding-top 2rem $padding-bottom 2rem;
+    position: relative;
+    text-align: center;
+    color: $color-blanco;
+}

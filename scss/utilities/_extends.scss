@@ -1,0 +1,20 @@
+// ===================
+// %EXTENDS
+// ===================
+%estilos-cards {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 15px;
+    padding: 1.5rem;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+%estilos-footers {
+    background-color: $color-footers;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
